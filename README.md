@@ -8,8 +8,16 @@ Dan Miguel's Bikeshare project
 An interactive program that allows you to view the data of the bikeshare program from various cities.
 
 ### Files used
-bikeshare_2.py, chicago.csv, new_york_city.csv and washington.csv
+*Data files
+    *chicago.csv
+    *new_york_city.csv 
+    *washington.csv
+
+*Program Files and imported libraries
+    *bikeshare_2.py
+    *time library
+    *pandas library
+    *numpy library
 
 ### Credits
-I came up with most of the code myself. The only exception was the chunker function, that was created by the wonderful folks @Udacity! Thanks guys!
-
+I came up with most of the code myself. The only exception was the chunker function, that was created by the wonderful folks @Udacity. Thanks guys!
