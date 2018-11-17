@@ -177,9 +177,13 @@ def user_stats(df):
         # Display earliest, most recent, and most common year of birth
         if column_exists('Birth Year', df):
             early = int(df['Birth Year'].min())
+            print('The earliest recorded year of birth is {}'.format(early))
+            
             recent = int(df['Birth Year'].max())
+            print('The most recent recorded year of birth is {}'.format(recent))
+            
             pop = int(df['Birth Year'].mode()[0])
-            print('The earliest, most recent, and most common year of birth are: {}, {} and {}'.format(early,recent,pop))
+            print('The most popular year of birth is {}'.format(pop))
         
         print("\nThis took %s seconds." % (time.time() - start_time))
         print('-'*40)
